@@ -1,0 +1,419 @@
+/* CSS Document */
+
+/*
+    Created on   : 16/03/2019
+    Theme Name   : style
+    Version      : 1.0.
+    Author       : La Hoàng Long
+    Developed by : La Hoàng Long
+
+*/
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - Global style  */
+/*   02 - Prefix  */
+/*   03 - HOME */
+/*   04 - FEATURES */
+/*   05 - WHY US?  */
+/*   06 - DESICRIBE VIDEO  */
+/*   07 - DESICRIBE FEEDBACK  */
+/*   08 - SERVICES  */
+/*   09 - SCREENSHOTS  */
+/*   10 - PACKAGE  */
+/*   11 - DOWNLOAD  */
+/*   12 - SOCIAL  */
+/**
+* Importing necessary  Styles.
+**/
+/*---- font-google -------*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:200');
+/*---- Font awesome -------*/
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+/*---- Bootstrap css -----*/
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+/*---- slick --------*/
+@import url('../slick/slick-theme.css');
+@import url('../slick/slick.css');
+/* ----animate----- */
+@import url('../animate/animate.css');
+/*______________________ Global style ___________________*/
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+h3 {
+    color: #F25454;
+    text-align: center;
+}
+h4 {
+    padding-bottom: 50px;
+}
+h5, h6{
+    color: white;
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+}
+input {
+    outline: 0;
+}
+li {
+    list-style: none;
+}
+/*----------- Prefix -----------*/
+.subtitle-section {
+    text-align: center;
+}
+.row {
+    width: 80%;
+}
+.superscript {
+    vertical-align: super;
+    font-size: 25px;
+}
+button:hover, .button-subscribe:hover{
+    background: white;
+    color: black;
+}
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.text-center {
+    text-align: center;
+}
+.input-text-contact-form {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.icon-red {
+    color: #F25454;
+    margin-right: 10px;
+}
+.line-red, .line-grey {
+    width: 40%;
+    height: 1.5px;
+    background: #f25454;
+    margin-bottom: 1rem;
+}
+.section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.block-desicribe-img, .block-services, .block-packages {
+    padding: 160px 0px;
+}
+.block-desicribe-video, .block-screenshots {
+    background: #F7F8FA;
+    padding: 100px 0px;
+}
+.body-block-features, .body-block-services, .body-block-screenshots {
+    margin-top: 30px;
+}
+.slick-slide {
+    outline: 0;
+}
+/*--------- HEADER------ */
+header .container-navbar {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 100;
+}
+header .logo-header {
+    width: 80%;
+    padding-left: 100px;
+}
+/*----------- HOME -----------*/
+.block-home {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bg-1.jpg) ;
+    background-size: cover;
+    color: white;
+    min-height: 800px;
+}
+.kane-mobileapp {
+    padding-top: 50px;
+}
+.intro-section {
+    width: 45%;
+    padding: 150px 0px;
+}
+.button-download, .button-subscribe, .Send-Message {
+    border: none;
+    width: 210px;
+    height: 50px;
+    background: #F25454;
+    color: #ffff;
+    border-radius: 4px;
+}
+.button-download i, .button-subscribe i {
+    margin-right: 5px;
+}
+/*----------- FEATURES -----------*/
+.block-features { 
+    padding: 35px 0px;
+}
+.header-block-features {
+    padding-top: 50px;
+}
+.item-left, .item-right {
+    display: flex;
+    padding: 20px 0px;
+}
+.list-item {
+    justify-content: flex-start;
+}
+.text-item {
+    width: 75%;
+    margin: 0px 10px;
+}
+.name-item {
+    color: #f25454;
+}
+.content-item-left, .name-item-left{
+    text-align: right;
+    float: right;
+}
+.container-icon {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: #F25454 1px solid;
+    transition: 0.2s;
+}
+.box-icon {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+    color: #F25454;
+    margin-right: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.item-left:hover .container-icon, .item-right:hover .container-icon{
+    border: #F25454 2px solid;
+}
+.item-left:hover .box-icon, .item-right:hover .box-icon{
+    transform: scale(0.8);
+    background: #F25454;
+    color: white;
+    border: none;
+}
+.image-1-iphone {
+    height: 600px;
+}
+/*----------- WHY US? -----------*/
+.block-why-us {
+    background: #F7F8FA;
+    padding: 170px 0px;
+}
+.image-2-iphone {
+    height: 500px;
+}
+.block-why-us ul {
+    padding: 0;
+}
+.block-why-us li {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+/*----------- DESICRIBE VIDEO -----------*/
+.block-desicribe-video iframe {
+    width:560px;
+    height:315px;
+}
+/*----------- DESICRIBE FEEDBACK -----------*/
+.block-desicribe-feedback {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/bg-2.jpg') center fixed;
+    background-size: cover;
+    padding: 170px 0px;
+}
+.container-slide {
+    width: 80%;
+}
+.slide-feedback .slick-dots li button:before {
+    font-size: 50px;
+    color: white;
+}
+.slide-feedback .slick-dots li.slick-active button:before {
+    color: white;
+}
+.container-image-feedback {
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    margin: auto;
+    border: white 2px solid;
+    margin-bottom: 20px;
+}
+.image-feedback {
+    border-radius: 50%;
+}
+.text-feedback {
+    margin: auto;
+    color: white;
+    width: 70%;
+}
+.line-white {
+    background: white;
+    height: 1.5px;
+    width: 10%;
+    margin: 25px auto;
+}
+/*----------- SERVICES -----------*/
+.icon-of-block-services {
+    color: #F25454;
+    font-size: 70px;
+}
+/*----------- SCREENSHOTS -----------*/
+.img-screenshots {
+    height: 430px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.slide-screenshots .slick-dots li button:before {
+    font-size: 60px;
+    color: #F25454;
+}
+.slide-screenshots .slick-dots li.slick-active button:before {
+    color: #F25454;
+}
+/*----------- PACKAGE -----------*/
+.body-block-packages {
+    justify-content: space-evenly;
+}
+.package {
+    background: #F7F8FA;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.name-package {
+    height: 90px;
+}
+.month {
+    font-size: 25px;
+}
+.container-cost-white {
+    background: white;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.container-cost-red {
+    background: #F25454;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+/*----------- DOWNLOAD -----------*/
+.block-download {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/bg-3.jpg') center fixed;
+    padding: 120px 0;
+}
+.container-button-download {
+    padding-top: 20px;
+    padding-bottom: 90px;
+    flex-flow: row;
+}
+.download-phone {
+    margin: 0 5px;
+}
+.form-Subscribe, .contact-form{
+    width: 80%;
+    flex-flow: row;
+    margin-top: 20px;
+}
+.Subscribe-Email {
+    border: none;
+    padding: 0px 10px;
+    border-radius: 4px;
+    height: 50px;
+    width: 27%;
+    margin-right: 5px;
+}
+.button-subscribe {
+    width: 120px;
+}
+/*----------- SOCIAL -----------*/
+.block-social {
+    padding-bottom: 50px;
+}
+.container-IconMail {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -40px;
+    background: white;
+}
+.IconMail {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    border: #F25454 2px solid;
+    font-size: 25px;
+    color: #F25454;
+}
+.container-IconMail:hover .IconMail{
+    background: #F25454;
+    color: white;
+}
+.contact-form {
+    width: 66%;
+    flex-wrap: wrap;
+}
+.YourName, .YourEmail {
+    width: calc(100% / 2 - 5px);
+    padding: 9px 5px;
+}
+.YourName {
+    margin-right: 10px;
+}
+.Subject {
+    width: 100%;
+    padding: 9px 5px;
+}
+.Message {
+    width: 100%;
+    padding: 5px 5px 100px 5px;
+}
+.Send-Message:hover {
+    background: rgb(216, 37, 37);
+}
+.container-icon-social {
+    flex-flow: row;
+    padding: 40px 0;
+}
+.icon-social {
+    font-size: 40px;
+    color: black;
+    opacity: 0.5;
+    margin: 0 4px;
+    transition: 0.2s;
+}
+.icon-social:hover {
+    color: #F25454;
+    opacity: 1;
+}
+.line-grey {
+    width: 70%;
+    background: black;
+    opacity: 0.4;
+}

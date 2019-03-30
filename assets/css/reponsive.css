@@ -1,0 +1,123 @@
+@media (max-width: 1700px) { 
+    /*------DESICRIBE -----*/
+    .block-desicribe-video h2 {
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .block-desicribe-video .row {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .block-desicribe-video .col-6 {
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+}
+@media (max-width: 1600px) {
+    /*------- PACKAGES -------*/
+    .block-packages .row {
+        width: 100%;
+    }
+    .block-packages .col-3 {
+        max-width: calc(100% / 3 - 50px);
+        margin-top: 30px;
+        border: 1px solid rgb(199, 190, 190);
+    }
+}
+@media (max-width: 1199.98px) {
+    /*------ FEATURES -------*/
+    .body-block-features {
+        flex-flow: column;
+        width: 100%;
+    }
+    .block-features .col-4 {
+        max-width: 100%;
+        flex-flow: row;
+        align-items: flex-start;
+    }
+    .item-left {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-item {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        margin-top: 20px;
+    }
+    .name-item {
+        padding-bottom: 20px;
+    }
+    .content-item, .name-item {
+        text-align: center;
+    }
+    .item-right {
+        flex-flow: column;
+        align-items: center;
+    }
+    /*------- DESICRIBE -----*/
+    .block-why-us .row, .block-desicribe-img .row {
+        width: 100%;
+    }
+    .block-desicribe-video .col-6 {
+        text-align: center;
+    }
+    /*----------- PACKAGES -----------*/
+    .block-packages .row {
+        flex-flow: column;
+        align-items: center;
+    }  
+    .block-packages .col-3 {
+        max-width: 50%;
+    }
+}
+@media (max-width: 850px) {
+    /*------- HOME -----------*/
+    .kane-mobileapp {
+        padding-top: 90px;
+    }
+    /*------- WHY US? -------*/
+    .block-why-us .row, .block-desicribe-img .row,.block-services .row {
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+    }
+    .block-why-us .col-6, .block-desicribe-img .col-6, .block-services .col-4 {
+        max-width: 80%;
+        text-align: center;
+    }
+    .image-2-iphone {
+        margin-bottom: 30px;
+    }
+    .line-red {
+        display: inline-block;
+    }
+}
+@media (max-width: 767.98px) {
+    /*------ FEATURES -------*/
+    .block-features .list-item {
+        flex-flow: column;
+    }
+    /*------- DESICRIBE -----*/
+    .block-desicribe-video iframe {
+        width: 100%;
+    }   
+}
+
+
+@media (max-width: 575.98px) {
+    /*----------- DOWNLOAD -----------*/
+    .block-download .container-button-download {
+        width: 50%;
+        flex-flow: column;
+    }
+    .block-download .download-phone {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
